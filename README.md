@@ -2,10 +2,10 @@
 
 Todo:
 
-- [] Render background image relative to the weather
-- [] Finish the main design
-- [] Make it mobile friendly
-- [] Connect with the API
+- [ ] Render background image relative to the weather
+- [ ] Finish the main design
+- [ ] Make it mobile friendly
+- [ ] Connect with the API
 
 Powered by React. ⚛️
 
