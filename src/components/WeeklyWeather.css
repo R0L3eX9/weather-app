@@ -1,0 +1,25 @@
+.weekly-weather {
+  border-left: 2px solid gray;
+}
+
+.weekly-stats {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.day-name {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(150, 150, 150);
+}
+
+.weekly-temperature {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

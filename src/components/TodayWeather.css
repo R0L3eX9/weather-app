@@ -1,0 +1,35 @@
+.today-weather {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+}
+
+.today-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.today-date {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(114, 114, 114);
+}
+
+.temperature {
+  font-size: 5rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status {
+  font-size: 1.3rem;
+}

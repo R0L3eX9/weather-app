@@ -1,0 +1,40 @@
+.weather-card {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  color: #fff;
+
+  background-image: url("../imgs/storm.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  border-radius: 0.5rem;
+}
+
+.weather-record {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+  background-color: rgba(20, 33, 61, 0.7);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    rgb(0, 195, 255) 0%,
+    rgb(0, 86, 184) 50%,
+    rgb(0, 195, 255) 100%
+  );
+  border-image-slice: 1;
+}
+
+.weekly {
+  display: flex;
+}
+
+.weather-img {
+  width: 100%;
+}
