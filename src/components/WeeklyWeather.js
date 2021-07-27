@@ -1,9 +1,9 @@
 import React from 'react';
 import './WeeklyWeather.css';
-import { IoPartlySunnyOutline } from 'react-icons/io5';
 import Icon from './Icon';
 
 const WeeklyWeather = ({day, weather, temperature}) => {
+
   return (
     <div className="weekly-weather">
       <div className="weekly-stats">

@@ -1,6 +1,7 @@
 .weather-card {
-  width: 70%;
-  height: 70%;
+  position: relative;
+  min-width: 70%;
+  min-height: 70%;
   margin: 0 auto;
   color: #fff;
 
@@ -34,7 +35,17 @@
 .weekly {
   display: flex;
 }
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+}
 
-.weather-img {
-  width: 100%;
+.location-name {
+  margin-left: 1rem;
+  font-size: 1.2rem;
 }

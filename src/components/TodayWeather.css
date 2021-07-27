@@ -1,8 +1,8 @@
 .today-weather {
   height: 100%;
-  width: 30%;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   padding: 2rem;
 }
@@ -31,5 +31,5 @@
 }
 
 .status {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }

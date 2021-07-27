@@ -1,21 +1,20 @@
 import React from 'react';
-import { IoRainyOutline } from 'react-icons/io5';
 import Icon from './Icon';
 import './TodayWeather.css';
 
-const TodayWeather = () => {
+const TodayWeather = ({date, temperature}) => {
   return (
     <div className="today-weather">
       <div className="today-stats">
-        <p className="today-date">Tuesday 29th - 2021</p>
+        <p className="today-date">{date}</p>
         <p className="temperature">
-          15
+          {temperature}
           <span>&#176;</span>
         </p>
       </div>
       <div className="icon">
         <p className="status">Rainy</p>
-        <Icon weather="rainy" size="5rem" />
+        <Icon weather="rainy" size="4rem" />
       </div>
     </div>
   );

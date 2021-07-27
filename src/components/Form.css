@@ -1,0 +1,15 @@
+.search-form {
+  position: absolute;
+  top: 0;
+  right: 50;
+}
+
+.input-form {
+  padding: 0.4rem 0.6rem;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
