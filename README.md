@@ -4,6 +4,7 @@ Todo:
 
 - [x] Finish the main design
 - [x] Connect with the API
+- [ ] Add Form to select the City
 - [ ] Change icons dynamically
 - [ ] Display the week names acording to today's date
 - [ ] Render background image relative to the weather
