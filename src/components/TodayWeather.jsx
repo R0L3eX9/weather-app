@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from './Icon';
 import './TodayWeather.css';
 
-const TodayWeather = ({date, temperature}) => {
+const TodayWeather = ({date, weather, temperature}) => {
   return (
     <div className="today-weather">
       <div className="today-stats">
@@ -13,8 +13,8 @@ const TodayWeather = ({date, temperature}) => {
         </p>
       </div>
       <div className="icon">
-        <p className="status">Rainy</p>
-        <Icon weather="rainy" size="4rem" />
+        <p className="status">{weather}</p>
+        <Icon weather={weather} size="5rem" />
       </div>
     </div>
   );

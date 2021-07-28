@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import WeatherCard from './components/WeatherCard';
+import WeatherCard from './components/WeatherCard.jsx';
 
 export const WeatherContext = React.createContext();
 
