@@ -66,7 +66,6 @@ const Icon = ({weather, size}) => {
     'overcast clouds',
   ];
   weather = weather.toLowerCase();
-  console.log(weather);
   if(weather === 'clear sky') {
     return <WiDaySunny size={size} color="#ffcb1f" />
   }

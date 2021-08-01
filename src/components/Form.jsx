@@ -7,7 +7,6 @@ const Form = (dataSetter) => {
 
   const handleSubmit = (event) => {
     if(event.key === 'Enter') {
-      console.log(event.target.value);
       fetch(`${BASE_URL}&city=${event.target.value}&key=${key}`)
       .then(res => res.json())
       .then(result => dataSetter.dataSetter(result))

@@ -1,7 +1,11 @@
 .search-form {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 50;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .input-form {

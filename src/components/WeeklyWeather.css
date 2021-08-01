@@ -23,3 +23,18 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+@media all and (max-width: 1150px) {
+  .weekly-stats {
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+  }
+  .day-name,
+  .weekly-temperature {
+    font-size: 1.7rem;
+  }
+  .weekly-weather {
+    border-left: transparent;
+  }
+}

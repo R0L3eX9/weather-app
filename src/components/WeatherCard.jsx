@@ -10,7 +10,7 @@ const WeatherCard = () => {
   return (
     <>
       <Form dataSetter={setWeather} />
-      {weather !== null ? console.log(weather.data):console.log(null)}
+      {/* {weather !== null ? console.log(weather.data):console.log(null)} */}
       <div className="weather-card">
         <div className="weather-record">
           <TodayWeather

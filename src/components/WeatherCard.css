@@ -35,6 +35,7 @@
 .weekly {
   display: flex;
 }
+
 .location {
   display: flex;
   justify-content: center;
@@ -48,4 +49,37 @@
 .location-name {
   margin-left: 1rem;
   font-size: 1.2rem;
+}
+
+@media all and (max-width: 1150px) {
+  .weather-card {
+    flex-direction: column;
+    margin: 15rem 0 0 0;
+
+    min-width: 95%;
+    min-height: 100%;
+  }
+
+  .weather-record {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    border-image-slice: 0;
+  }
+
+  .weekly {
+    flex-direction: column;
+  }
+
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .location-name {
+    font-size: 1.6rem;
+  }
 }
